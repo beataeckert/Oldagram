@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro';
+    background-color: #EDEDED;
+}
+
+/* layout */
+
+header, 
+.container, 
+#like-count, 
+.container-username-caption  {
+    display: flex;
+    align-items: center;
+    width: 345px;
+    background-color: #fff;
+}
+
+header{
+ justify-content: space-between;
+ margin: 0px auto 2px auto;
+}
+
+.container, 
+.post_photo, 
+#like-count {
+     margin: 0px auto;
+}
+
+header, .container {
+    padding: 16px 15px;
+}
+
+#user-avatar,
+.avatar-img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+#logo {
+    width: 127px;
+}
+
+.user-info {
+    padding-left: 7px;
+}
+
+#user-full-name, 
+#like-count, 
+#username-caption {
+    font-size: 13px;
+    font-weight:  900;
+}
+
+#user-full-name {
+    margin-bottom: 2px;
+}
+
+#location {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+.post_photo {
+    width: 375px;
+    height: 375px;
+    display: flex;
+}
+
+.small-icons {
+    width: 23.3px;
+    padding: 0px 10px 0px 0px;
+}
+
+.small-icons:hover {
+    width:30px;
+}
+
+ #like-count, 
+ .container-username-caption {
+    padding: 0px 15px;
+}
+
+.container-username-caption {
+    margin: 0px auto 20px auto;
+}
+
+#comment {
+    font-size: 13px;
+    font-weight:  400;
+    margin-left: 4px;
+}
